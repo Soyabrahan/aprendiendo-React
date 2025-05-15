@@ -1,5 +1,6 @@
 import Card, { CardBody } from "./components/Card";
 import List from "./components/List";
+import Button from "./components/button";
 
 function App() {
   const list: string[] = ["samuel", "abrahan"];
@@ -18,6 +19,8 @@ function App() {
     <Card>
       <CardBody title="TITULOOOO" text="texto de la  cartaa" />
       {contenido}
+      <p>Boton de ejercicio 1</p>
+      <Button />
     </Card>
   );
 }
